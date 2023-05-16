@@ -1,8 +1,6 @@
 package com.codersnitch.restcontrollerdemo.rest;
 
 public class StudentNotFoundException extends RuntimeException {
-    
-    private int id;
 
     public StudentNotFoundException(String message) {
         super(message);
